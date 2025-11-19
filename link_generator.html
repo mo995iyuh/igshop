@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>MoonPay Link Generator</title>
+<style>
+body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;max-width:720px;margin:18px auto;padding:12px}
+h1{font-size:18px}
+label{display:block;margin-top:10px;font-weight:600}
+input[type=text], input[type=number]{width:100%;padding:10px;border:1px solid #ddd;border-radius:8px;margin-top:6px}
+button{background:#4a3aff;color:white;padding:10px 14px;border-radius:8px;border:0;margin-top:12px;font-weight:700}
+.output{margin-top:12px;padding:10px;border:1px dashed #ddd;border-radius:8px}
+.note{font-size:13px;color:#666;margin-top:8px}
+</style>
+</head>
+<body>
+<h1>MoonPay Link Generator (Mobile)</h1>
+<label>Amount (USD)</label>
+<input id="amount" type="number" step="0.01" value="20.00">
+<label>Base currency (usd)</label>
+<input id="basecur" type="text" value="usd">
+<label>Crypto code (usdt)</label>
+<input id="crypto" type="text" value="usdt">
+<label>Wallet address (TRC20)</label>
+<input id="wallet" type="text" value="TUivgcqgkGZdXs1AV2tR6BNUSHvB8HvTco">
+<button id="gen">Generate Link</button>
+<div class="output" id="out" style="display:none"></div>
+<div class="note">Tap "Copy" to paste into Instagram DM.</div>
+<script>
+document.getElementById('gen').addEventListener('click', function(){
+  const amt = document.getElementById('amount').value || '0.00';
+  const base = document.getElementById('basecur').value || 'usd';
+  const crypto = document.getElementById('crypto').value || 'usdt';
+  const wallet = document.getElementById('wallet').value.trim();
+  if(!wallet){ alert('Enter wallet'); return; }
+  const orderToken = 'ig_'+Date.now()+'_'+Math.floor(Math.random()*9999);
+  const url = "https://buy.moonpay.com?walletAddress="+encodeURIComponent(wallet)
+    + "&baseCurrencyAmount="+encodeURIComponent(parseFloat(amt).toFixed(2))
+    + "&baseCurrencyCode="+encodeURIComponent(base)
+    + "&currencyCode="+encodeURIComponent(crypto)
+    + "&externalCustomerId="+encodeURIComponent(orderToken);
+  const out = document.getElementById('out');
+  out.style.display = 'block';
+  out.innerHTML = '<div><strong>Payment link (tap to copy)</strong></div><div style="margin-top:8px"><input id="linkfield" style="width:100%;padding:8px;border-radius:6px;border:1px solid #ccc" value="'+url+'"></div><div style="margin-top:8px"><button id="copy">Copy Link</button></div>';
+  document.getElementById('copy').addEventListener('click', function(){ navigator.clipboard.writeText(document.getElementById('linkfield').value); alert('Copied to clipboard'); })
+});
+</script>
+</body>
+</html>

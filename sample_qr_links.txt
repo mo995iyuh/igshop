@@ -1,0 +1,34 @@
+5 USD -> Link:
+https://buy.moonpay.com?currencyCode=usdt&walletAddress=TUivgcqgkGZdXs1AV2tR6BNUSHvB8HvTco&baseCurrencyCode=usd&baseCurrencyAmount=5.00
+QR image URL:
+https://chart.googleapis.com/chart?chs=300x300&cht=qr&chl=https://buy.moonpay.com?currencyCode=usdt&walletAddress=TUivgcqgkGZdXs1AV2tR6BNUSHvB8HvTco&baseCurrencyCode=usd&baseCurrencyAmount=5.00&choe=UTF-8
+
+10 USD -> Link:
+https://buy.moonpay.com?currencyCode=usdt&walletAddress=TUivgcqgkGZdXs1AV2tR6BNUSHvB8HvTco&baseCurrencyCode=usd&baseCurrencyAmount=10.00
+QR image URL:
+https://chart.googleapis.com/chart?chs=300x300&cht=qr&chl=https://buy.moonpay.com?currencyCode=usdt&walletAddress=TUivgcqgkGZdXs1AV2tR6BNUSHvB8HvTco&baseCurrencyCode=usd&baseCurrencyAmount=10.00&choe=UTF-8
+
+15 USD -> Link:
+https://buy.moonpay.com?currencyCode=usdt&walletAddress=TUivgcqgkGZdXs1AV2tR6BNUSHvB8HvTco&baseCurrencyCode=usd&baseCurrencyAmount=15.00
+QR image URL:
+https://chart.googleapis.com/chart?chs=300x300&cht=qr&chl=https://buy.moonpay.com?currencyCode=usdt&walletAddress=TUivgcqgkGZdXs1AV2tR6BNUSHvB8HvTco&baseCurrencyCode=usd&baseCurrencyAmount=15.00&choe=UTF-8
+
+20 USD -> Link:
+https://buy.moonpay.com?currencyCode=usdt&walletAddress=TUivgcqgkGZdXs1AV2tR6BNUSHvB8HvTco&baseCurrencyCode=usd&baseCurrencyAmount=20.00
+QR image URL:
+https://chart.googleapis.com/chart?chs=300x300&cht=qr&chl=https://buy.moonpay.com?currencyCode=usdt&walletAddress=TUivgcqgkGZdXs1AV2tR6BNUSHvB8HvTco&baseCurrencyCode=usd&baseCurrencyAmount=20.00&choe=UTF-8
+
+25 USD -> Link:
+https://buy.moonpay.com?currencyCode=usdt&walletAddress=TUivgcqgkGZdXs1AV2tR6BNUSHvB8HvTco&baseCurrencyCode=usd&baseCurrencyAmount=25.00
+QR image URL:
+https://chart.googleapis.com/chart?chs=300x300&cht=qr&chl=https://buy.moonpay.com?currencyCode=usdt&walletAddress=TUivgcqgkGZdXs1AV2tR6BNUSHvB8HvTco&baseCurrencyCode=usd&baseCurrencyAmount=25.00&choe=UTF-8
+
+50 USD -> Link:
+https://buy.moonpay.com?currencyCode=usdt&walletAddress=TUivgcqgkGZdXs1AV2tR6BNUSHvB8HvTco&baseCurrencyCode=usd&baseCurrencyAmount=50.00
+QR image URL:
+https://chart.googleapis.com/chart?chs=300x300&cht=qr&chl=https://buy.moonpay.com?currencyCode=usdt&walletAddress=TUivgcqgkGZdXs1AV2tR6BNUSHvB8HvTco&baseCurrencyCode=usd&baseCurrencyAmount=50.00&choe=UTF-8
+
+100 USD -> Link:
+https://buy.moonpay.com?currencyCode=usdt&walletAddress=TUivgcqgkGZdXs1AV2tR6BNUSHvB8HvTco&baseCurrencyCode=usd&baseCurrencyAmount=100.00
+QR image URL:
+https://chart.googleapis.com/chart?chs=300x300&cht=qr&chl=https://buy.moonpay.com?currencyCode=usdt&walletAddress=TUivgcqgkGZdXs1AV2tR6BNUSHvB8HvTco&baseCurrencyCode=usd&baseCurrencyAmount=100.00&choe=UTF-8
